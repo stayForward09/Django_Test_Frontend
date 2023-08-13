@@ -1,0 +1,40 @@
+.card-group {
+  height: 324;
+}
+.custom-card-body {
+  box-sizing: border-box;
+  color: rgb(222, 226, 230);
+  color-scheme: dark;
+  display: block;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 400;
+  height: auto; /* Du kannst diese Größe anpassen, um die gewünschte Höhe festzulegen */
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  text-align: start;
+  text-size-adjust: auto%;
+  width: 430px; /* Du kannst diese Breite anpassen, um die gewünschte Breite festzulegen */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.delete-form {
+  margin: 0; /* Removes default margin */
+}
+
+.edit-button,
+.delete-button {
+  margin-right: 5px;
+}

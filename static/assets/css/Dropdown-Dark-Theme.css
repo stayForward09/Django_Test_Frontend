@@ -1,0 +1,20 @@
+.dropdown-menu {
+  --bs-dropdown-color: #adb5bd;
+  --bs-dropdown-bg: #212529;
+  --bs-dropdown-border-color: rgba(255,255,255,0.15);
+  --bs-dropdown-divider-bg: rgba(255,255,255,0.15);
+  --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-dropdown-link-color: #adb5bd;
+  --bs-dropdown-link-hover-color: #adb5bd !important;
+  --bs-dropdown-link-hover-bg: #2b3035;
+  --bs-dropdown-link-active-color: #fff;
+  --bs-dropdown-link-active-bg: #0d6efd;
+  --bs-dropdown-link-disabled-color: rgba(173, 181, 189, 0.5);
+  --bs-dropdown-header-color: #6c757d;
+}
+
+.container.dark, .container-fluid.dark {
+  background: #212529;
+  color: #fff;
+}
+
